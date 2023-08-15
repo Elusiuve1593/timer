@@ -1,48 +1,81 @@
 .timerBorder {
-    padding: 70px;
+    background-color: #d7a46a9b;
     border: 4px solid #ff9c08c1;
     border-radius: 20px;
-    background-color: #d7a46a9b;
-
+    padding: 70px;
 }
 
 .timer {
-    font-size: 40px;
     color: #ff9c08d8;
     background-color: #da301e;
-    max-width: 200px;
-    padding: 20px;
-    margin: 0 auto;
-    border-radius: 10px;
     border: 3px solid #ff9d08;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 40px;
+    max-width: 200px;
 }
 
 .freeze {
-    width: 100px;
-    font-size: 20px;
     color: #0077b6;
-    padding: 10px;
-    margin: 10px 10px 0 15px;
     background-color: #caf0f8;
-    border-radius: 10px;
     border: 3px solid #0077b6;
+    border-radius: 10px;
+    margin: 10px 10px 0 12px;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 100px;
 }
 
 .freeze:hover {
     cursor: pointer;
+    transition: 1.3s;
 }
 
 .unfreeze {
-    width: 100px;
-    font-size: 20px;
     color: #075d37;
-    padding: 10px;
-    margin: 10px 10px 0 15px;
     background-color: #62aa98;
-    border-radius: 10px;
     border: 3px solid #075d37;
+    border-radius: 10px;
+    margin: 10px 10px 0 12px;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 100px;
 }
 
 .unfreeze:hover {
     cursor: pointer;
+    transition: 1.3s;
+}
+
+.cleared {
+    color: #5e5856;
+    background-color: #7c736b69;
+    border: 3px solid #5e5856;
+    border-radius: 10px;
+    margin: 10px 10px 0 0;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 100px;
+}
+
+.cleared:hover {
+    cursor: pointer;
+    transition: 1.3s;
+}
+
+.clear {
+    color: #2f1a11;
+    background-color: #987554;
+    border: 3px solid #2f1a11;
+    border-radius: 10px;
+    margin: 10px 10px 0 0;
+    padding: 10px;
+    font-size: 20px;
+    max-width: 100px;
+}
+
+.clear:hover {
+    cursor: pointer;
+    transition: 1.3s;
 }

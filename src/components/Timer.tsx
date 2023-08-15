@@ -45,16 +45,7 @@ export const Timer = () => {
 
             <button
                 onClick={clearFunc}
-                style={{
-                    width: "100px",
-                    fontSize: "20px",
-                    color: "#2f1a11",
-                    padding: "10px",
-                    margin: "10px 10px 0 0",
-                    backgroundColor: "#987554",
-                    borderRadius: "10px",
-                    border: "3px solid #2f1a11"
-                }}
+                className={!timer ? module.cleared : module.clear}
             >
                 Clear
             </button>
